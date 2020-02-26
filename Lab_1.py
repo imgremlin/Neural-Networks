@@ -28,7 +28,6 @@ class RBPerceptron:
     self.learning_rate = learning_rate
 
   def train(self, X, D):
-      
     num_features = X.shape[1]
     self.w = np.zeros(num_features + 1)
     
