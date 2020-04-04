@@ -90,8 +90,7 @@ class RBPerceptron:
     plt.show()
     print ('Weights vector: w1 =', round(self.w[1], 4), 'w2 =', round(self.w[2], 4), 'b =', round(self.w[0], 4))
     return self
-  
-      
+    
   # Generate prediction
   def predict(self, sample):
     outcome = np.dot(sample, self.w[1:]) + self.w[0]
