@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 class RBFN(object):
 
     def __init__(self, hidden_shape, sigma=1.0):
